@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 
 import { environment } from '../environments/environment';
 import { FeedComponent } from './feed/feed.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FeedComponent } from './feed/feed.component';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
