@@ -1,1 +1,0 @@
-# Leitor-de-Noticias-em-Angular
